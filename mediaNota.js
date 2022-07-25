@@ -26,7 +26,6 @@ function calcularMedia(array) {
     for (let valor of array) {
         soma += valor;
     }
-    return soma/(notas.length);
+    return soma/(array.length);
 }
 
-//VIDEO 2H15MIN
