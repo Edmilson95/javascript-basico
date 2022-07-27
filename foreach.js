@@ -1,4 +1,4 @@
-const numeros = [1,2,3,4,5];
+const numeros = [1,2,3,3,3,3,4,5,6,7,4,5];
 
 // for (numero of numeros)
 //     console.log(numero);
@@ -9,4 +9,4 @@ numeros.forEach((numero,indice) => {
 });
 
 
-//HORA VIDEO 2HORAS 13MIN
+//HORA VIDEO 4HORAS 13MIN
