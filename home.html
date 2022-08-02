@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso Javascript</title>
-    <script src="./festaVip.js"></script>
+    <script src="./projeto01.js"></script>
 </head>
 <body>
     <header>
@@ -13,15 +13,12 @@
     </header>
     <main>
         <h2>Bem-vindo a festa, senhor(a):</h2>
-        <input type="text" placeholder="digite seu nome" id="nomeConvidado">
+        <input type="text" placeholder="digite seu nome" id="nome">
         <h2>Quem te convidou para essa festa?</h2>
-        <input type="text" placeholder="quem te convidou?" id="quemConvidou">
-        <button>Verificar se posso entrar</button>
+        <input type="text" placeholder="quem te convidou?" id="ConvidadoPor">
+        <button onclick="VerificarEntrada()">Verificar se posso entrar</button>
         <h2>Você está permitido a entrar?</h2>
-        <button>
-            Pesquisando...
-            <script src="festaVip"></script>
-        </button>
+       <label for="" id="PermissaoDeEntrada">Pesquisando...</label>
     </main>
 
 
